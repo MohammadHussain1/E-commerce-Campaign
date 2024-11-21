@@ -68,6 +68,10 @@ This project is an API for reporting on e-commerce campaign performance. It incl
     npm run dev
     ```
 
+4. **Run the test case **:
+    ```sh
+    npm test
+    ```
 5. **Access the API**:
     - The API will be available at `http://localhost:3000`.
 

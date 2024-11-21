@@ -6,7 +6,6 @@ app.use('/users', require('../routes/userRoutes'));
 const { generateToken } = require("../utils/generateTokenUtils");
 
 const token = generateToken(1);
-console.log('token',token);
 
 describe('User API tests', () => {
     describe('POST /users', () => {
